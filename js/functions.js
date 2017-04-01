@@ -1,4 +1,4 @@
-function deneme(button) {
+function like(button) {
 	var id = button.id.replace( /^\D+/g, '');
 	var text =  document.getElementById("text-"+button.id);
 

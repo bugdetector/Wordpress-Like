@@ -45,7 +45,7 @@
 
 	add_action( 'init', 'script_enqueuer' );
 	function script_enqueuer() {
-		wp_register_script( "like_script", plugins_url('js/myjs.js',__FILE__), array('jquery') );
+		wp_register_script( "like_script", plugins_url('js/functions.js',__FILE__), array('jquery') );
    		wp_localize_script( 'like_script', 'ajaxElement', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));        
 
    		wp_enqueue_script( 'jquery' );

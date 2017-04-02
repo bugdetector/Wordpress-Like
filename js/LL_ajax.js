@@ -1,14 +1,14 @@
 function like(button) {
 	var id = button.id.replace( /^\D+/g, '');
-	var text =  document.getElementById("text-"+button.id);
+	var text =  button.value;
 
     jQuery.ajax({
         type : "post",
         dataType : "json",
         url : ajaxElement.ajaxurl,
-        data : {action: "like_button_clicked",id:id,state:text.innerHTML},
+        data : {action: "like_button_clicked",id:id,state:text},
         success: function(response) {
-            text.innerHTML = response.state == 1 ? "Beğenildi":"Beğenilmedi" ;
+            button.value = response.text ;
          }
     });
 }

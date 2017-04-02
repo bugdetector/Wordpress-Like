@@ -1,2 +1,2 @@
 # Wordpress-Like
-Her yazının beğenilmesini sağlayan eklenti
+Etiketli her yazının beğenilmesini sağlayan eklenti ve en çok beğenilenleri gösteren bileşen

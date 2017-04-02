@@ -106,6 +106,7 @@
 	add_action("admin_menu","LL_addmenu");
 	function LL_addmenu(){
 		add_menu_page("Like-Likest","Like-Likest","manage_options","Like-Likest/menu.php","","",81);
+		add_submenu_page("Like-Likest/menu.php","Favoriler","Favoriler","manage_options","Like-Likest/favs.php","");
 	}
 
 	add_action("admin_init","LL_options");

@@ -9,4 +9,4 @@ Eklenti ile beraber sunulan bileşen(widget) sayfaya eklenerek varsayılan olara
 
 Elentinin oturum açmamış kullanıcılarda çalışması planlanmamıştır. Bu yüzden beğeni butonu sadece oturum açmoş kullanıcılara ve tekil sayfalarda görüntülenir.
 
-Eklenti fazlandan zahmet harcamaksızın sadece worpress eklentisi olarak ellenip kullanılabilir.
+Eklenti fazlandan zahmet harcamaksızın sadece worpress eklentisi olarak eklenip kullanılabilir.

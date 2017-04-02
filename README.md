@@ -8,5 +8,7 @@ Bir kullanıcı herhangi bir yazıyıda beğenme butonuna bastığı zaman verit
 Eklenti ile beraber sunulan bileşen(widget) sayfaya eklenerek varsayılan olarak on en beğenilen etiket sayfada sıralanabilir.
 
 Elentinin oturum açmamış kullanıcılarda çalışması planlanmamıştır. Bu yüzden beğeni butonu sadece oturum açmış kullanıcılara ve tekil sayfalarda görüntülenir.
+
+Yönetici menüsünden butonlarda gösterilen yazılar değiştirilebilir. V Favoriler alanından her bir etiketin almış olduğu beğeni sayısı gözlenebilir.
 ## Kurulum
 Eklenti fazlandan zahmet harcamaksızın sadece worpress eklentisi olarak eklenip kullanılabilir.
